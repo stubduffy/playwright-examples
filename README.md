@@ -1,9 +1,11 @@
 # rasa challenge - UI and GraphQL tests
 
+Repo showcasing the use of playwright to test the UI of demoblaze.com, and the 'countries' graphQL server provided by TrevorBlades.
+
 ## Setup environment
 
-`npm install`
-`npx playwright install`
+Install node dependencies: `npm install`
+Install playwright browsers: `npx playwright install`
 
 ## Run the tests
 Run just the UI tests:
@@ -18,6 +20,9 @@ Or run all:
 `npx playwright test`
 
 ## Future Improvements
- - fix any flakiness
- - where possible, remove any hardcoded waits
- - probably introduce page objects
+ - Fix any flakiness
+   - Running repeatedly still throws up the occasional fail, so these need to be ironed out.
+ - Where possible, remove any hardcoded waits.
+   - Certain actions were causing problems when happening seemingly too fast. each of these would need to be investigated in detail to find potential solutions.
+ - Introduce page objects.
+   - This would make code more reusable and make the tests more intuitive and readable.
