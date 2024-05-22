@@ -19,4 +19,5 @@ Or run all:
 
 ## Future Improvements
  - fix any flakiness
+ - where possible, remove any hardcoded waits
  - probably introduce page objects
