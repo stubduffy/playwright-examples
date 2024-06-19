@@ -1,4 +1,4 @@
-# rasa challenge - UI and GraphQL tests
+# Playwright examples
 
 Repo showcasing the use of playwright to test the UI of demoblaze.com, and the 'countries' graphQL server provided by TrevorBlades.
 
